@@ -25,7 +25,7 @@ footer .logo img {
 
 .brands {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     padding: 100px 0;
 }
@@ -33,7 +33,7 @@ footer .logo img {
 .brands .ford,
 .mg,
 .hyundai {
-    width: 340px;
+    width: 380px;
 }
 
 .brands img {
