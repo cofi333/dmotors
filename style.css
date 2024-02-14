@@ -98,6 +98,10 @@ footer .container {
     object-fit: cover;
 }
 
+.swiper-pagination {
+    left: -4px !important;
+}
+
 .swiper-pagination-bullet {
     background-color: #fff !important;
 }
