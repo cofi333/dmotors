@@ -3,15 +3,42 @@
     font-size: 25px;
 }
 
+.navbar-brand-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .logo img {
+    width: 200px;
+}
+
+.navbar-brand-logo img {
+    width: 200px;
+}
+
 .brands {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     padding: 100px 0;
 }
 
+.brands .ford,
+.mg,
+.hyundai {
+    width: 300px;
+}
+
 .brands img {
-    width: 230px;
-    height: 130px;
+    width: 100%;
+    transition: scale 0.2s ease-in-out;
 }
 
 .brands img:hover {
@@ -47,7 +74,7 @@ footer .container {
 }
 
 .footer-links ul li:last-child:before {
-    content: '|';
+    content: "|";
     color: #5f5f5f;
     font-size: 12px;
     margin: 0 10px;
@@ -63,7 +90,7 @@ footer .container {
     width: 100%;
     height: 80vh;
     position: relative;
-  }
+}
 
 .swiper-slide img {
     width: 100%;
@@ -75,6 +102,7 @@ footer .container {
     background-color: #fff !important;
 }
 
-.swiper-button-prev, .swiper-button-next {
+.swiper-button-prev,
+.swiper-button-next {
     color: #fff !important;
 }
