@@ -152,6 +152,14 @@ footer .container {
     margin: 50px 0;
 }
 
+.contact-group {
+    margin-bottom: 20px;
+}
+
+.contact-link {
+    margin-left: 67px;
+}
+
 @media only screen and (max-width: 1024px) {
     .brands {
         gap: 50px;
