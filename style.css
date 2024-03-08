@@ -160,6 +160,19 @@ footer .container {
     margin-left: 69px;
 }
 
+.contact-link-mail {
+    margin-left: 47px;
+}
+
+.contact-link-phone {
+    margin-right: 8px;
+}
+
+footer .logo img {
+    border: 1px solid #f00;
+    padding: 2px;
+}
+
 @media only screen and (max-width: 1024px) {
     .brands {
         gap: 50px;
