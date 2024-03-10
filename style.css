@@ -148,6 +148,8 @@ footer .container {
     margin: 50px 0;
 }
 
+
+
 .location-item {
     margin: 50px 0;
 }
@@ -156,17 +158,16 @@ footer .container {
     margin-bottom: 20px;
 }
 
-.contact-link {
-    margin-left: 69px;
+.contact-mail, .contact-time {
+    display: flex;
 }
 
-.contact-link-mail {
-    margin-left: 47px;
+
+.contact-mail ul, .contact-time ul {
+    padding-left: 10px;
+    list-style-type: none;
 }
 
-.contact-link-phone {
-    margin-right: 8px;
-}
 
 footer .logo img {
     border: 1px solid #f00;
@@ -241,6 +242,11 @@ footer .logo img {
     .swiper-button-next::after, .swiper-button-prev::after {
         font-size: 30px !important;
     }
-   
+
 }
 
+@media only screen and (max-width: 375px) {
+    .contact-info {
+        font-size: 13px;
+    }
+}
